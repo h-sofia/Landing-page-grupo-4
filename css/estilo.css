@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+  --teal:#479fbb; 
+  --teal-700:#4ba8c3;
+  --pink-bg:#f6cbd6;
+  --crimson: #cf8798;
+  --text:#222;
+--pink: #ff90d4;
+	
+}
+
+
+/*
+  CSS Hero y navbar
+*/
+.letra_azul{
+    color: #ee70e5;
+}
+
+
+
+#menu {
+  background-color: var(--pink);
+}
+
+
+#menu .nav-link,
+#menu .navbar-brand {
+  color: white !important;
+}
+
+
+#unitec{
+    background-image: url('../img/donas.png');
+    padding-top: 160px;
+    padding-bottom: 160px;
+
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+
+
+}
+#unitec h1, h2, btn-hero{
+	margin-top: 5%;
+}
+.color_azul{
+    color: var(--teal-700);
+}
+
+.fondo_gris{
+    color: rgb(243, 127, 243);
+}
+
+.color_negro{
+    color: rgb(25, 24, 24);
+}
+
+#unitec .btn-primary{
+	margin-top: 5%;
+	background-color: var(--teal-700)!important;
+	border: none;
+	border-radius: 25px;
+}
+
+/*
+  CSS CTA 
+*/
+body { font-family: "Poppins", sans-serif; color: #333; }
+    .fav-section { padding: 64px 0 28px; background: #fff; }
+    .fav-title { font-family: "Baloo 2", cursive; font-weight: 700; color: #55c3d3; text-align: center; font-size: clamp(36px, 4vw, 52px); margin-bottom: 48px; }
+    .donut-card { background: #fff; border-radius: 20px; box-shadow: 0 10px 22px rgba(17, 27, 55, .08); padding: 28px; height: 100%; transition: transform .25s ease, box-shadow .25s ease; }
+    .donut-card:hover { transform: translateY(-4px); box-shadow: 0 16px 34px rgba(17, 27, 55, .12); }
+    .donut-figure { display: grid; place-items: center; margin: 10px 0 20px; }
+    .donut-img { width: 300px; height: 300px; border-radius: 50%; object-fit: cover; }
+    .donut-card h3 { font-size: 24px; font-weight: 700; color: #a24f7c; margin: 12px 0 10px; }
+    .donut-card p { font-size: 18px; color: #5c6370; line-height: 1.6; margin: 0; }
+    .features { padding: 56px 0 20px; }
+    .feature { display: flex; gap: 20px; align-items: flex-start; padding: 14px 16px; }
+    .feature svg { flex: 0 0 50px; width: 50px; height: 50px; }
+    .feature h4 { font-size: 22px; color: #d66da2; margin: 0 0 6px; font-weight: 700; }
+    .feature p { font-size: 18px; color: #5c6370; margin: 0; }
+/*
+  CSS testimonios
+*/
+
+#features{
+	min-height: 100vh;
+  	width: 100%;
+	display: flex;
+  	align-items: center;
+	
+}
+
+.background-donut{
+	background-image: url(../img/7.3.jpg);
+	background-size: cover;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	
+}
+
+.lista_corr{
+	padding-top: 80px;
+	padding-left: 120px;
+}
+
+.lista_cen{
+text-align: center;
+}
+
+.color_blanco{
+color: aliceblue;
+}
+
+.separacion{
+	margin-top: 50px;
+}
+
+.donut{
+	background-image: url(../img/7.2.png);
+}
+
+/*
+  CSS formulario
+
+*/
+
+body {
+ font-family: 'Poppins', sans-serif;
+ background-color: #f7e6f0;
+ margin: 0;
+ padding: 0;
+ overflow-x: hidden; 
+}
+
+
+.formulario{
+  position:relative;
+  min-height: 100vh;
+  background: url("../img/fondo.png") center/cover no-repeat, var(--pink-bg);
+  padding-top: 7rem; 
+  padding-bottom: 3rem;
+}
+
+.form-content h1 {
+  color:#479fbb ;
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+p{
+	color: white;
+	font-size: 15px
+}
+
+.btn-enviar{
+  background: var(--teal);
+  border: 0;
+  background-color:#cf8798;
+}
+.btn-teal:hover{ background: var(--teal-700); }
+
+.rounded-pill-start{ border-radius:50rem 0 0 50rem !important;}
+.rounded-pill-end{ border-radius:0 50rem 50rem 0 !important;}
+
+.form-control {
+   background-color: #cf8798;
+   border: 1px solid #e1b4d0;
+   padding: 0.75rem 1rem;
+   border-radius: 0.5rem;
+   color: #d15197;
+}
+/* Footer */
+footer a{ text-decoration:none; }
+
+
+/* Accesibilidad / responsive refinements */
+@media (max-width: 992px){
+  .formulario{ padding-top:6rem; min-height: 90vh; }
+  .hero .display-5{ font-size:2.2rem; }
+}
+
+@media (max-width: 576px){
+  .formulario{ background-position: 20% 0; }
+  .input-group .form-control{ font-size:1rem; }
+  .btn-teal{ font-size:1rem; }
+}
+
+
+
+
+
+
+
